@@ -86,3 +86,32 @@ footer { padding: 28px 0; font-size: 11px; }
 @media (max-width: 760px) {
   .academy-brand img { width: 190px; }
 }
+
+.hero-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 16px; margin-top: 28px; }
+.hero-actions .button { margin-top: 0; }
+.button-outline { background: white; color: var(--navy); border: 1px solid var(--navy); gap: 12px; }
+.button-outline:hover { background: var(--navy); color: white; }
+.pdf-label { font-size: 10px; font-weight: 400; }
+@media (max-width: 540px) {
+  .hero-actions { flex-direction: column; align-items: center; }
+  .hero-actions .button { justify-content: center; max-width: 100%; flex-wrap: wrap; gap: 8px; }
+}
+
+.project-targets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 30px 0 12px; padding: 22px 0; border-block: 1px solid #c0862c60; }
+.project-targets strong { display: block; font: 500 40px/1.2 var(--serif); color: var(--crimson); }
+.project-targets span { display: block; font-size: 12px; margin-top: 8px; }
+.small-note { font-size: 12px; line-height: 1.8; opacity: .8; }
+.goals { padding-left: 22px; font-size: 14px; }
+.goals li { padding: 5px 0; }
+.text-link { display: inline-block; margin-top: 20px; font-size: 14px; }
+.row .row-followup { margin-top: 14px; }
+.participation-note { font-size: 13px; margin: 24px 0 0; padding: 18px; border-left: 3px solid var(--gold); background: #c0862c0a; }
+.team-area { margin-top: 65px; padding-top: 40px; border-top: 1px solid #0b264f20; }
+.team-area h3 { margin: 12px 0; font-size: 26px; }
+.team-intro { max-width: 700px; font-size: 14px; }
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px 32px; margin: 28px 0; }
+.team-grid div { padding-top: 14px; border-top: 2px solid #c0862c60; }
+.team-grid dt { font-size: 14px; font-weight: 700; }
+.team-grid dd { font-size: 12px; line-height: 1.7; margin: 6px 0 0; }
+@media (max-width: 760px) { .team-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 440px) { .team-grid { grid-template-columns: 1fr; } .project-targets { gap: 12px; } .project-targets span { font-size: 11px; } }
