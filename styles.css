@@ -128,7 +128,7 @@ footer { padding: 28px 0; font-size: 11px; }
 @media (max-width: 1000px) { .application-grid { grid-template-columns: 1fr; } }
 
 .about-introduction { padding-top: 48px; text-align: center; }
-.about-introduction p { max-width: 800px; margin: 0 auto; font-size: 19px; line-height: 1.7; }
+.about-introduction p { max-width: none; margin: 0 auto; font-size: 19px; line-height: 1.7; }
 @media (max-width: 760px) { .about-introduction { padding-top: 32px; } .about-introduction p { font-size: 17px; } }
 
 .partner-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 32px 24px; padding: 0; margin: 32px 0 0; list-style: none; }
