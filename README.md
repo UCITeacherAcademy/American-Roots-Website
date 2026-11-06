@@ -1,25 +1,24 @@
 # American Roots website
 
-Initial program website for American Roots at UCI Teacher Academy.
+Program website for American Roots at UCI Teacher Academy.
 
 ## Preview
 
-Open `index.html` in a browser. No installation or build step is required.
+Run `python3 -m http.server 4173 --bind 127.0.0.1` from this directory, then open http://127.0.0.1:4173. No installation or build is needed.
 
-## Edit
+## Files
 
-All content and styles are in `index.html`. Use GitHub’s file editor or edit a local copy. The About, Program, Resources, and Contact sections are marked with HTML IDs.
+- `index.html`: page content and navigation
+- `styles.css`: responsive layout and brand palette
+- `american-roots-logo.png`: supplied American Roots artwork
+- `uci-teacher-academy-logo.png`: supplied Teacher Academy artwork
 
-## Content to supply
+The page uses Cinzel and Open Sans through Google Fonts, with system fallbacks. Original logos retain their colors and proportions.
 
-- Approved program overview, goals, and audience
-- Schedule, eligibility, and registration link
-- Team and partner information
-- Approved images and accessible descriptions
-- Program resources and contact details
+## Content
 
-The initial page explicitly marks unconfirmed information as forthcoming. It contains no registration form or data collection.
+Program descriptions, schedules, participation details, team information, and resources still need review. Contact information links to UCI Teacher Academy. Specific requested changes are previewed locally before committing.
 
 ## Hosting
 
-Cloudflare setup is deferred. This repository is ready for static hosting; no dependencies, environment variables, or secrets are required. GitHub currently stores the source code; committing files alone does not publish a live website.
+Cloudflare setup is deferred. This is a static website with no build step, environment variables, or secrets. Committing files does not deploy a live website.
