@@ -115,3 +115,14 @@ footer { padding: 28px 0; font-size: 11px; }
 .team-grid dd { font-size: 12px; line-height: 1.7; margin: 6px 0 0; }
 @media (max-width: 760px) { .team-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 440px) { .team-grid { grid-template-columns: 1fr; } .project-targets { gap: 12px; } .project-targets span { font-size: 11px; } }
+
+.applications { margin-top: 36px; }
+.applications-intro { font-size: 14px; }
+.application-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.application-card { border: 1px solid #0b264f25; border-top: 3px solid var(--gold); padding: 22px; display: flex; flex-direction: column; }
+.application-status { color: var(--crimson); font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; }
+.application-card h4 { font: 600 19px/1.5 var(--serif); margin: 12px 0; }
+.application-card p { font-size: 13px; }
+.application-card button { margin-top: auto; padding: 12px 14px; border: 1px solid #0b264f40; background: #0b264f08; color: var(--navy); font: 600 12px/1.6 var(--sans); cursor: not-allowed; }
+.application-card .application-note { font-size: 11px; margin: 10px 0 0; }
+@media (max-width: 1000px) { .application-grid { grid-template-columns: 1fr; } }
