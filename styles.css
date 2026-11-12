@@ -125,7 +125,7 @@ footer { padding: 28px 0; font-size: 11px; }
 .application-card p { font-size: 13px; }
 .application-card button { margin-top: auto; padding: 12px 14px; border: 1px solid #0b264f40; background: #0b264f08; color: var(--navy); font: 600 12px/1.6 var(--sans); cursor: not-allowed; }
 .application-card .application-note { font-size: 11px; margin: 10px 0 0; }
-@media (max-width: 1000px) { .application-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .application-grid { grid-template-columns: 1fr; } }
 
 .about-introduction { padding-top: 48px; text-align: center; }
 .about-introduction p { max-width: none; margin: 0 auto; font-size: 19px; line-height: 1.7; }
