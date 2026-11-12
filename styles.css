@@ -35,7 +35,7 @@ h1 { font: 500 clamp(40px, 6vw, 76px)/1.2 var(--serif); letter-spacing: 1px; mar
 .button:hover { background: var(--navy); }
 .notice { border-left: 3px solid var(--gold); background: #c0862c0c; padding: 12px 20px; font-size: 12px; margin: 30px 0 0; }
 section { padding: 75px 0; border-bottom: 1px solid #0b264f15; }
-.section-grid { display: grid; grid-template-columns: .9fr 1.5fr; gap: 80px; }
+.section-grid { display: block; max-width: 880px; }
 h2 { font: 500 36px/1.35 var(--serif); margin: 15px 0 20px; }
 h3 { font: 600 20px/1.5 var(--serif); margin: 0 0 8px; }
 p { margin: 0 0 18px; }
@@ -143,3 +143,6 @@ footer { padding: 28px 0; font-size: 11px; }
 .partner-link { display: block; border-radius: 3px; }
 .partner-link:hover { box-shadow: 0 0 0 1px #c0862c70; }
 .partner-link:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+
+.section-label { margin: 0 0 28px; color: var(--crimson); font: 700 12px/1.6 var(--sans); letter-spacing: 2px; text-transform: uppercase; }
+.contact .section-label { color: var(--gold); }
